@@ -69,3 +69,6 @@ fruits = ["pomegranate", "cherry", "apricot", "apple",
 with open('fruits.txt', 'w') as fruits_out:
     for fruit in sorted(fruits):
         fruits_out.write(fruit.capitalize() + '\n')
+
+# with open(...) as file_obj:
+#     for line_number, line_text in enumerate(file_obj):
